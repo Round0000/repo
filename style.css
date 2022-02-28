@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible", Tahoma, sans-serif;
+  background-color: #111;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+/*****************/
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-auto-rows: 240px;
+}
+
+li {
+  border: 8px solid white;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-color: #2225;
+  background-blend-mode: multiply;
+  margin: 0.5em;
+  transition: background-color 0.2s;
+  border-top-right-radius: 8px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 1px 3px 4px #0009;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+a span {
+  padding: 0.2em 1em;
+  background-color: white;
+  color: #222;
+  font-weight: bold;
+  border-bottom-left-radius: 8px;
+  box-shadow: 1px 3px 4px #0002;
+}
+
+li:hover {
+  background-color: transparent;
+}
+
+li:hover a span {
+    opacity: 0;
+}
+
+.p_keyboard_shooter {
+  background-image: url(./img/p_keyboard_shooter.jpg);
+}
+.p_poivressel {
+  background-image: url(./img/p_poivressel.jpg);
+}
+.p_opticourses {
+  background-image: url(./img/p_opticourses.jpg);
+}
+.p_trivia {
+  background-image: url(./img/p_trivia.jpg);
+}
+.p_quizmory {
+  background-image: url(./img/p_quizmory.jpg);
+}
+.p_word_counter {
+  background-image: url(./img/p_word_counter.jpg);
+}
+.p_color_calendar {
+  background-image: url(./img/p_color_calendar.jpg);
+}
+.p_sequencer {
+  background-image: url(./img/p_sequencer.jpg);
+}
+.p_translit {
+  background-image: url(./img/p_translit.jpg);
+}
+.p_experimental {
+  background-image: url(./img/p_experimental.jpg);
+}
+.p_shmup {
+  background-image: url(./img/p_shmup.jpg);
+}
+.p_departements {
+  background-image: url(./img/p_departements.jpg);
+}
+.p_percentviz {
+  background-image: url(./img/p_percentviz.jpg);
+}
+.p_xpsim {
+  background-image: url(./img/p_xpsim.jpg);
+}
+.p_minesweeper {
+  background-image: url(./img/p_minesweeper.jpg);
+}
