@@ -18,6 +18,13 @@ button {
 
 /*****************/
 
+h1 {
+  color: rgb(221, 230, 240);
+  font-weight: 400;
+  margin: 1em 1em .5em;
+
+}
+
 ul {
   list-style: none;
   display: grid;
@@ -109,4 +116,19 @@ li:hover a span {
 }
 .p_minesweeper {
   background-image: url(./img/p_minesweeper.jpg);
+}
+.p_indigo {
+  background-image: url(./img/p_indigo.jpg);
+}
+.p_regularr {
+  background-image: url(./img/p_regularr.jpg);
+}
+.p_karinecampens {
+  background-image: url(./img/p_karinecampens.jpg);
+}
+.p_eusebes {
+  background-image: url(./img/p_eusebes.jpg);
+}
+.p_rmos {
+  background-image: url(./img/p_rmos.jpg);
 }
