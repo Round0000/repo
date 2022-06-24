@@ -57,7 +57,7 @@ li {
   background-blend-mode: multiply;
   margin: 0.5em;
   transition: background-color 0.2s;
-  border-top-right-radius: 8px;
+  border-top-right-radius: 8px; 
 }
 
 a {
@@ -156,4 +156,7 @@ li a:focus-visible {
 }
 .p_rmos {
   background-image: url(./img/p_rmos.jpg);
+}
+.p_reunion {
+  background-image: url(./img/p_reunion.jpg);
 }
