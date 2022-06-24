@@ -17,12 +17,26 @@ button {
 }
 
 /*****************/
+footer {
+  color: snow;
+  text-align: center;
+  padding: 4em 1em;
+}
 
 h1 {
   color: rgb(221, 230, 240);
   font-weight: 400;
   margin: 1em 1em .5em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: .5em;
+  line-height: 1;
+}
 
+h1 span {
+  color: orange;
+  font-size: .6em;
 }
 
 ul {
@@ -30,6 +44,8 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   grid-auto-rows: 240px;
+  max-width: 95vw;
+  margin: auto;
 }
 
 li {
@@ -70,6 +86,15 @@ li:hover {
 
 li:hover a span {
     opacity: 0;
+}
+
+ul:hover li:not(:hover) {
+  opacity: 0.8;
+}
+
+li a:focus-visible {
+  outline: 2px solid orange;
+  outline-offset: 12px;
 }
 
 .p_keyboard_shooter {
